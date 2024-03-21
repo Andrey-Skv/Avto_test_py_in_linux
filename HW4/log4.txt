@@ -1,0 +1,4 @@
+мар 20 18:49:50 userpc sshd[5104]: pam_unix(sshd:session): session closed for user user2
+мар 20 18:49:50 userpc systemd-logind[677]: Session 28 logged out. Waiting for processes to exit.
+мар 20 18:49:50 userpc systemd[1]: session-28.scope: Deactivated successfully.
+мар 20 18:49:50 userpc systemd-logind[677]: Removed session 28.

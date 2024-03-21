@@ -1,0 +1,9 @@
+мар 20 18:50:48 userpc sshd[6670]: Accepted password for user2 from 127.0.0.1 port 39186 ssh2
+мар 20 18:50:48 userpc sshd[6670]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+мар 20 18:50:48 userpc systemd-logind[677]: New session 64 of user user2.
+мар 20 18:50:48 userpc snapd-desktop-i[4824]: Detected new session 64 at /org/freedesktop/login1/session/_364
+мар 20 18:50:48 userpc systemd[1]: Started Session 64 of User user2.
+мар 20 18:50:48 userpc sshd[6670]: pam_unix(sshd:session): session closed for user user2
+мар 20 18:50:48 userpc systemd[1]: session-64.scope: Deactivated successfully.
+мар 20 18:50:48 userpc systemd-logind[677]: Session 64 logged out. Waiting for processes to exit.
+мар 20 18:50:48 userpc systemd-logind[677]: Removed session 64.

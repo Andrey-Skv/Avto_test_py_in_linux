@@ -1,0 +1,9 @@
+мар 20 18:49:51 userpc sshd[5153]: Accepted password for user2 from 127.0.0.1 port 40952 ssh2
+мар 20 18:49:51 userpc sshd[5153]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+мар 20 18:49:51 userpc systemd-logind[677]: New session 29 of user user2.
+мар 20 18:49:51 userpc snapd-desktop-i[4824]: Detected new session 29 at /org/freedesktop/login1/session/_329
+мар 20 18:49:51 userpc systemd[1]: Started Session 29 of User user2.
+мар 20 18:49:51 userpc sshd[5153]: pam_unix(sshd:session): session closed for user user2
+мар 20 18:49:51 userpc systemd[1]: session-29.scope: Deactivated successfully.
+мар 20 18:49:51 userpc systemd-logind[677]: Session 29 logged out. Waiting for processes to exit.
+мар 20 18:49:51 userpc systemd-logind[677]: Removed session 29.

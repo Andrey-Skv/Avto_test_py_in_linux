@@ -1,0 +1,52 @@
+мар 20 18:48:48 userpc sshd[4178]: pam_unix(sshd:session): session closed for user user2
+мар 20 18:48:48 userpc systemd[1]: session-13.scope: Deactivated successfully.
+мар 20 18:48:48 userpc systemd-logind[677]: Session 13 logged out. Waiting for processes to exit.
+мар 20 18:48:48 userpc systemd-logind[677]: Removed session 13.
+мар 20 18:48:48 userpc sshd[4226]: Accepted password for user2 from 127.0.0.1 port 54986 ssh2
+мар 20 18:48:48 userpc sshd[4226]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+мар 20 18:48:48 userpc systemd-logind[677]: New session 14 of user user2.
+мар 20 18:48:48 userpc systemd[1]: Started Session 14 of User user2.
+мар 20 18:48:51 userpc dbus-daemon[3770]: [session uid=1001 pid=3770] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.10' (uid=1001 pid=4049 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+мар 20 18:48:51 userpc systemd[3746]: Starting Virtual filesystem service - disk device monitor...
+мар 20 18:48:53 userpc dbus-daemon[3770]: [session uid=1001 pid=3770] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+мар 20 18:48:53 userpc systemd[3746]: Started Virtual filesystem service - disk device monitor.
+мар 20 18:48:53 userpc dbus-daemon[3770]: [session uid=1001 pid=3770] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.10' (uid=1001 pid=4049 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+мар 20 18:48:53 userpc systemd[3746]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+мар 20 18:48:54 userpc dbus-daemon[3770]: [session uid=1001 pid=3770] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+мар 20 18:48:54 userpc systemd[3746]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+мар 20 18:48:54 userpc dbus-daemon[3770]: [session uid=1001 pid=3770] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.10' (uid=1001 pid=4049 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+мар 20 18:48:54 userpc systemd[3746]: Starting Virtual filesystem service - digital camera monitor...
+мар 20 18:48:54 userpc dbus-daemon[3770]: [session uid=1001 pid=3770] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+мар 20 18:48:54 userpc systemd[3746]: Started Virtual filesystem service - digital camera monitor.
+мар 20 18:48:54 userpc dbus-daemon[3770]: [session uid=1001 pid=3770] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.10' (uid=1001 pid=4049 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+мар 20 18:48:54 userpc systemd[3746]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+мар 20 18:48:54 userpc dbus-daemon[3770]: [session uid=1001 pid=3770] Activating service name='org.gnome.OnlineAccounts' requested by ':1.14' (uid=1001 pid=4303 comm="/usr/libexec/gvfs-goa-volume-monitor " label="unconfined")
+мар 20 18:48:55 userpc systemd[1492]: Starting Notification regarding a new release of Ubuntu...
+мар 20 18:48:59 userpc sshd[4226]: pam_unix(sshd:session): session closed for user user2
+мар 20 18:48:59 userpc systemd[1]: session-14.scope: Deactivated successfully.
+мар 20 18:48:59 userpc systemd[1]: session-14.scope: Consumed 6.258s CPU time.
+мар 20 18:48:59 userpc systemd-logind[677]: Session 14 logged out. Waiting for processes to exit.
+мар 20 18:48:59 userpc systemd-logind[677]: Removed session 14.
+мар 20 18:49:00 userpc sshd[4313]: Accepted password for user2 from 127.0.0.1 port 60076 ssh2
+мар 20 18:49:00 userpc sshd[4313]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+мар 20 18:49:00 userpc systemd-logind[677]: New session 15 of user user2.
+мар 20 18:49:00 userpc systemd[1]: Started Session 15 of User user2.
+мар 20 18:49:01 userpc sshd[4313]: pam_unix(sshd:session): session closed for user user2
+мар 20 18:49:01 userpc systemd[1]: session-15.scope: Deactivated successfully.
+мар 20 18:49:01 userpc systemd-logind[677]: Session 15 logged out. Waiting for processes to exit.
+мар 20 18:49:01 userpc systemd-logind[677]: Removed session 15.
+мар 20 18:49:04 userpc goa-daemon[4307]: goa-daemon version 3.44.0 starting
+мар 20 18:49:04 userpc dbus-daemon[3770]: [session uid=1001 pid=3770] Activating service name='org.gnome.Identity' requested by ':1.15' (uid=1001 pid=4307 comm="/usr/libexec/goa-daemon " label="unconfined")
+мар 20 18:49:04 userpc dbus-daemon[3770]: [session uid=1001 pid=3770] Successfully activated service 'org.gnome.OnlineAccounts'
+мар 20 18:49:04 userpc dbus-daemon[3770]: [session uid=1001 pid=3770] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+мар 20 18:49:04 userpc systemd[3746]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+мар 20 18:49:04 userpc dbus-daemon[3770]: [session uid=1001 pid=3770] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.10' (uid=1001 pid=4049 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+мар 20 18:49:04 userpc systemd[3746]: Starting Virtual filesystem service - Apple File Conduit monitor...
+мар 20 18:49:04 userpc dbus-daemon[3770]: [session uid=1001 pid=3770] Successfully activated service 'org.gnome.Identity'
+мар 20 18:49:05 userpc dbus-daemon[3770]: [session uid=1001 pid=3770] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+мар 20 18:49:05 userpc systemd[3746]: Started Virtual filesystem service - Apple File Conduit monitor.
+мар 20 18:49:07 userpc tracker-extract[3760]: Could not connect to filesystem miner endpoint: Timeout was reached
+мар 20 18:49:10 userpc systemd[3746]: tracker-extract-3.service: Main process exited, code=exited, status=1/FAILURE
+мар 20 18:49:10 userpc systemd[3746]: tracker-extract-3.service: Failed with result 'exit-code'.
+мар 20 18:49:10 userpc systemd[3746]: Failed to start Tracker metadata extractor.
+мар 20 18:49:10 userpc systemd[3746]: Reached target Main User Target.

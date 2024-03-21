@@ -1,0 +1,62 @@
+мар 20 18:50:09 userpc sshd[5462]: pam_unix(sshd:session): session closed for user user2
+мар 20 18:50:09 userpc systemd[1]: session-36.scope: Deactivated successfully.
+мар 20 18:50:09 userpc systemd-logind[677]: Session 36 logged out. Waiting for processes to exit.
+мар 20 18:50:09 userpc systemd-logind[677]: Removed session 36.
+мар 20 18:50:10 userpc sshd[5505]: Accepted password for user2 from 127.0.0.1 port 48806 ssh2
+мар 20 18:50:10 userpc sshd[5505]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+мар 20 18:50:10 userpc systemd-logind[677]: New session 37 of user user2.
+мар 20 18:50:10 userpc snapd-desktop-i[4824]: Detected new session 37 at /org/freedesktop/login1/session/_337
+мар 20 18:50:10 userpc systemd[1]: Started Session 37 of User user2.
+мар 20 18:50:12 userpc check-new-release-gtk[4309]: WARNING:root:timeout reached, exiting
+мар 20 18:50:13 userpc systemd[1492]: Finished Notification regarding a new release of Ubuntu.
+мар 20 18:50:13 userpc systemd[1492]: update-notifier-release.service: Consumed 4.901s CPU time.
+мар 20 18:50:16 userpc sshd[5505]: pam_unix(sshd:session): session closed for user user2
+мар 20 18:50:16 userpc systemd[1]: session-37.scope: Deactivated successfully.
+мар 20 18:50:16 userpc systemd[1]: session-37.scope: Consumed 4.761s CPU time.
+мар 20 18:50:16 userpc systemd-logind[677]: Session 37 logged out. Waiting for processes to exit.
+мар 20 18:50:16 userpc systemd-logind[677]: Removed session 37.
+мар 20 18:50:16 userpc sshd[5559]: Accepted password for user2 from 127.0.0.1 port 34928 ssh2
+мар 20 18:50:16 userpc sshd[5559]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+мар 20 18:50:16 userpc systemd-logind[677]: New session 38 of user user2.
+мар 20 18:50:16 userpc snapd-desktop-i[4824]: Detected new session 38 at /org/freedesktop/login1/session/_338
+мар 20 18:50:16 userpc systemd[1]: Started Session 38 of User user2.
+мар 20 18:50:17 userpc sshd[5559]: pam_unix(sshd:session): session closed for user user2
+мар 20 18:50:17 userpc systemd[1]: session-38.scope: Deactivated successfully.
+мар 20 18:50:17 userpc systemd-logind[677]: Session 38 logged out. Waiting for processes to exit.
+мар 20 18:50:17 userpc systemd-logind[677]: Removed session 38.
+мар 20 18:50:18 userpc sshd[5602]: Accepted password for user2 from 127.0.0.1 port 34940 ssh2
+мар 20 18:50:18 userpc sshd[5602]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+мар 20 18:50:18 userpc systemd-logind[677]: New session 39 of user user2.
+мар 20 18:50:18 userpc systemd[1]: Started Session 39 of User user2.
+мар 20 18:50:18 userpc snapd-desktop-i[4824]: Detected new session 39 at /org/freedesktop/login1/session/_339
+мар 20 18:50:18 userpc sshd[5602]: pam_unix(sshd:session): session closed for user user2
+мар 20 18:50:18 userpc systemd-logind[677]: Session 39 logged out. Waiting for processes to exit.
+мар 20 18:50:18 userpc systemd[1]: session-39.scope: Deactivated successfully.
+мар 20 18:50:18 userpc systemd-logind[677]: Removed session 39.
+мар 20 18:50:19 userpc sshd[5643]: Accepted password for user2 from 127.0.0.1 port 34946 ssh2
+мар 20 18:50:19 userpc sshd[5643]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+мар 20 18:50:19 userpc systemd-logind[677]: New session 40 of user user2.
+мар 20 18:50:19 userpc snapd-desktop-i[4824]: Detected new session 40 at /org/freedesktop/login1/session/_340
+мар 20 18:50:19 userpc systemd[1]: Started Session 40 of User user2.
+мар 20 18:50:19 userpc sshd[5643]: pam_unix(sshd:session): session closed for user user2
+мар 20 18:50:19 userpc systemd[1]: session-40.scope: Deactivated successfully.
+мар 20 18:50:19 userpc systemd-logind[677]: Session 40 logged out. Waiting for processes to exit.
+мар 20 18:50:19 userpc systemd-logind[677]: Removed session 40.
+мар 20 18:50:20 userpc sshd[5686]: Accepted password for user2 from 127.0.0.1 port 34960 ssh2
+мар 20 18:50:20 userpc sshd[5686]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+мар 20 18:50:20 userpc systemd-logind[677]: New session 41 of user user2.
+мар 20 18:50:20 userpc systemd[1]: Started Session 41 of User user2.
+мар 20 18:50:20 userpc snapd-desktop-i[4824]: Detected new session 41 at /org/freedesktop/login1/session/_341
+мар 20 18:50:20 userpc sshd[5686]: pam_unix(sshd:session): session closed for user user2
+мар 20 18:50:20 userpc systemd-logind[677]: Session 41 logged out. Waiting for processes to exit.
+мар 20 18:50:20 userpc systemd[1]: session-41.scope: Deactivated successfully.
+мар 20 18:50:20 userpc systemd-logind[677]: Removed session 41.
+мар 20 18:50:21 userpc sshd[5727]: Accepted password for user2 from 127.0.0.1 port 34962 ssh2
+мар 20 18:50:21 userpc sshd[5727]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+мар 20 18:50:21 userpc systemd-logind[677]: New session 42 of user user2.
+мар 20 18:50:21 userpc snapd-desktop-i[4824]: Detected new session 42 at /org/freedesktop/login1/session/_342
+мар 20 18:50:21 userpc systemd[1]: Started Session 42 of User user2.
+мар 20 18:50:21 userpc sshd[5727]: pam_unix(sshd:session): session closed for user user2
+мар 20 18:50:21 userpc systemd-logind[677]: Session 42 logged out. Waiting for processes to exit.
+мар 20 18:50:21 userpc systemd[1]: session-42.scope: Deactivated successfully.
+мар 20 18:50:21 userpc systemd-logind[677]: Removed session 42.
