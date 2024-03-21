@@ -1,0 +1,61 @@
+апр 29 13:48:50 zerglinux sshd[27409]: pam_unix(sshd:session): session closed for user user2
+апр 29 13:48:50 zerglinux systemd[1]: session-193.scope: Deactivated successfully.
+апр 29 13:48:50 zerglinux systemd-logind[1135]: Session 193 logged out. Waiting for processes to exit.
+апр 29 13:48:50 zerglinux systemd-logind[1135]: Removed session 193.
+апр 29 13:48:50 zerglinux audit[1105]: USER_AVC pid=1105 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionRemoved" name=":1.19" mask="receive" pid=3822 label="snap.firefox.firefox" peer_pid=1135 peer_label="unconfined"
+                                           exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+апр 29 13:48:50 zerglinux kernel: audit: type=1107 audit(1682765330.075:584): pid=1105 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionRemoved" name=":1.19" mask="receive" pid=3822 label="snap.firefox.firefox" peer_pid=1135 peer_label="unconfined"
+                                      exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+апр 29 13:48:50 zerglinux sshd[27464]: Accepted password for user2 from 127.0.0.1 port 56230 ssh2
+апр 29 13:48:50 zerglinux sshd[27464]: pam_unix(sshd:session): session opened for user user2(uid=1002) by (uid=0)
+апр 29 13:48:50 zerglinux systemd-logind[1135]: New session 194 of user user2.
+апр 29 13:48:50 zerglinux audit[1105]: USER_AVC pid=1105 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionNew" name=":1.19" mask="receive" pid=3822 label="snap.firefox.firefox" peer_pid=1135 peer_label="unconfined"
+                                           exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+апр 29 13:48:50 zerglinux systemd[1]: Started Session 194 of User user2.
+апр 29 13:48:50 zerglinux snapd-desktop-i[23168]: Detected new session 194 at /org/freedesktop/login1/session/_3194
+апр 29 13:48:50 zerglinux kernel: audit: type=1107 audit(1682765330.191:585): pid=1105 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionNew" name=":1.19" mask="receive" pid=3822 label="snap.firefox.firefox" peer_pid=1135 peer_label="unconfined"
+                                      exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+апр 29 13:48:50 zerglinux sshd[27464]: pam_unix(sshd:session): session closed for user user2
+апр 29 13:48:50 zerglinux systemd[1]: session-194.scope: Deactivated successfully.
+апр 29 13:48:50 zerglinux systemd-logind[1135]: Session 194 logged out. Waiting for processes to exit.
+апр 29 13:48:50 zerglinux systemd-logind[1135]: Removed session 194.
+апр 29 13:48:50 zerglinux audit[1105]: USER_AVC pid=1105 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionRemoved" name=":1.19" mask="receive" pid=3822 label="snap.firefox.firefox" peer_pid=1135 peer_label="unconfined"
+                                           exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+апр 29 13:48:50 zerglinux kernel: audit: type=1107 audit(1682765330.279:586): pid=1105 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionRemoved" name=":1.19" mask="receive" pid=3822 label="snap.firefox.firefox" peer_pid=1135 peer_label="unconfined"
+                                      exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+апр 29 13:48:50 zerglinux sshd[27519]: Accepted password for user2 from 127.0.0.1 port 56242 ssh2
+апр 29 13:48:50 zerglinux sshd[27519]: pam_unix(sshd:session): session opened for user user2(uid=1002) by (uid=0)
+апр 29 13:48:50 zerglinux systemd-logind[1135]: New session 195 of user user2.
+апр 29 13:48:50 zerglinux systemd[1]: Started Session 195 of User user2.
+апр 29 13:48:50 zerglinux audit[1105]: USER_AVC pid=1105 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionNew" name=":1.19" mask="receive" pid=3822 label="snap.firefox.firefox" peer_pid=1135 peer_label="unconfined"
+                                           exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+апр 29 13:48:50 zerglinux snapd-desktop-i[23168]: Detected new session 195 at /org/freedesktop/login1/session/_3195
+апр 29 13:48:50 zerglinux kernel: audit: type=1107 audit(1682765330.395:587): pid=1105 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionNew" name=":1.19" mask="receive" pid=3822 label="snap.firefox.firefox" peer_pid=1135 peer_label="unconfined"
+                                      exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+апр 29 13:48:50 zerglinux sudo[27573]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -r p7zip-full
+апр 29 13:48:50 zerglinux sudo[27573]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1002)
+апр 29 13:48:50 zerglinux sudo[27573]: pam_unix(sudo:session): session closed for user root
+апр 29 13:48:50 zerglinux sshd[27519]: pam_unix(sshd:session): session closed for user user2
+апр 29 13:48:50 zerglinux systemd[1]: session-195.scope: Deactivated successfully.
+апр 29 13:48:50 zerglinux systemd-logind[1135]: Session 195 logged out. Waiting for processes to exit.
+апр 29 13:48:50 zerglinux systemd-logind[1135]: Removed session 195.
+апр 29 13:48:50 zerglinux audit[1105]: USER_AVC pid=1105 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionRemoved" name=":1.19" mask="receive" pid=3822 label="snap.firefox.firefox" peer_pid=1135 peer_label="unconfined"
+                                           exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+апр 29 13:48:50 zerglinux kernel: audit: type=1107 audit(1682765330.759:588): pid=1105 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionRemoved" name=":1.19" mask="receive" pid=3822 label="snap.firefox.firefox" peer_pid=1135 peer_label="unconfined"
+                                      exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+апр 29 13:48:50 zerglinux sshd[27585]: Accepted password for user2 from 127.0.0.1 port 56246 ssh2
+апр 29 13:48:50 zerglinux sshd[27585]: pam_unix(sshd:session): session opened for user user2(uid=1002) by (uid=0)
+апр 29 13:48:50 zerglinux systemd-logind[1135]: New session 196 of user user2.
+апр 29 13:48:50 zerglinux systemd[1]: Started Session 196 of User user2.
+апр 29 13:48:50 zerglinux audit[1105]: USER_AVC pid=1105 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionNew" name=":1.19" mask="receive" pid=3822 label="snap.firefox.firefox" peer_pid=1135 peer_label="unconfined"
+                                           exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+апр 29 13:48:50 zerglinux snapd-desktop-i[23168]: Detected new session 196 at /org/freedesktop/login1/session/_3196
+апр 29 13:48:51 zerglinux sudo[27640]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+апр 29 13:48:51 zerglinux sudo[27640]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1002)
+апр 29 13:48:51 zerglinux sudo[27640]: pam_unix(sudo:session): session closed for user root
+апр 29 13:48:51 zerglinux sshd[27585]: pam_unix(sshd:session): session closed for user user2
+апр 29 13:48:51 zerglinux systemd[1]: session-196.scope: Deactivated successfully.
+апр 29 13:48:51 zerglinux systemd-logind[1135]: Session 196 logged out. Waiting for processes to exit.
+апр 29 13:48:51 zerglinux systemd-logind[1135]: Removed session 196.
+апр 29 13:48:51 zerglinux audit[1105]: USER_AVC pid=1105 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionRemoved" name=":1.19" mask="receive" pid=3822 label="snap.firefox.firefox" peer_pid=1135 peer_label="unconfined"
+                                           exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'

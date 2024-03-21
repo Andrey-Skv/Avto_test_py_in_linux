@@ -1,0 +1,188 @@
+апр 29 13:59:41 zerglinux sshd[48558]: Accepted password for user2 from 127.0.0.1 port 53122 ssh2
+апр 29 13:59:41 zerglinux sshd[48558]: pam_unix(sshd:session): session opened for user user2(uid=1002) by (uid=0)
+апр 29 13:59:41 zerglinux audit[1105]: USER_AVC pid=1105 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="UserNew" name=":1.19" mask="receive" pid=3822 label="snap.firefox.firefox" peer_pid=1135 peer_label="unconfined"
+                                           exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+апр 29 13:59:41 zerglinux systemd[1]: Created slice User Slice of UID 1002.
+апр 29 13:59:41 zerglinux kernel: audit: type=1107 audit(1682765981.603:1308): pid=1105 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="UserNew" name=":1.19" mask="receive" pid=3822 label="snap.firefox.firefox" peer_pid=1135 peer_label="unconfined"
+                                      exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+апр 29 13:59:41 zerglinux systemd[1]: Starting User Runtime Directory /run/user/1002...
+апр 29 13:59:41 zerglinux systemd-logind[1135]: New session 552 of user user2.
+апр 29 13:59:41 zerglinux audit[1105]: USER_AVC pid=1105 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionNew" name=":1.19" mask="receive" pid=3822 label="snap.firefox.firefox" peer_pid=1135 peer_label="unconfined"
+                                           exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+апр 29 13:59:41 zerglinux kernel: audit: type=1107 audit(1682765981.611:1309): pid=1105 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionNew" name=":1.19" mask="receive" pid=3822 label="snap.firefox.firefox" peer_pid=1135 peer_label="unconfined"
+                                      exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+апр 29 13:59:41 zerglinux systemd[1]: Finished User Runtime Directory /run/user/1002.
+апр 29 13:59:41 zerglinux systemd[1]: Starting User Manager for UID 1002...
+апр 29 13:59:41 zerglinux systemd[48562]: pam_unix(systemd-user:session): session opened for user user2(uid=1002) by (uid=0)
+апр 29 13:59:41 zerglinux systemd[48562]: Queued start job for default target Main User Target.
+апр 29 13:59:41 zerglinux systemd[48562]: Created slice User Application Slice.
+апр 29 13:59:41 zerglinux systemd[48562]: Created slice User Background Tasks Slice.
+апр 29 13:59:41 zerglinux systemd[48562]: Created slice User Core Session Slice.
+апр 29 13:59:41 zerglinux systemd[48562]: Started Pending report trigger for Ubuntu Report.
+апр 29 13:59:41 zerglinux systemd[48562]: Reached target Paths.
+апр 29 13:59:41 zerglinux systemd[48562]: Reached target Timers.
+апр 29 13:59:41 zerglinux systemd[48562]: Starting D-Bus User Message Bus Socket...
+апр 29 13:59:41 zerglinux systemd[48562]: Listening on GnuPG network certificate management daemon.
+апр 29 13:59:41 zerglinux systemd[48562]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+апр 29 13:59:41 zerglinux systemd[48562]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+апр 29 13:59:41 zerglinux systemd[48562]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+апр 29 13:59:41 zerglinux systemd[48562]: Listening on GnuPG cryptographic agent and passphrase cache.
+апр 29 13:59:41 zerglinux systemd[48562]: Listening on PipeWire Multimedia System Socket.
+апр 29 13:59:41 zerglinux systemd[48562]: Listening on debconf communication socket.
+апр 29 13:59:41 zerglinux systemd[48562]: Listening on Sound System.
+апр 29 13:59:41 zerglinux systemd[48562]: Listening on REST API socket for snapd user session agent.
+апр 29 13:59:41 zerglinux systemd[48562]: Listening on D-Bus User Message Bus Socket.
+апр 29 13:59:41 zerglinux systemd[48562]: Reached target Sockets.
+апр 29 13:59:41 zerglinux systemd[48562]: Reached target Basic System.
+апр 29 13:59:41 zerglinux systemd[1]: Started User Manager for UID 1002.
+апр 29 13:59:41 zerglinux systemd[48562]: Started PipeWire Multimedia Service.
+апр 29 13:59:41 zerglinux systemd[1]: Started Session 552 of User user2.
+апр 29 13:59:41 zerglinux systemd[48562]: Started PipeWire Media Session Manager.
+апр 29 13:59:41 zerglinux systemd[48562]: Starting Sound Service...
+апр 29 13:59:41 zerglinux systemd[48562]: Started Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+апр 29 13:59:41 zerglinux systemd[48562]: Starting Tracker metadata extractor...
+апр 29 13:59:41 zerglinux systemd[48562]: Started D-Bus User Message Bus.
+апр 29 13:59:41 zerglinux dbus-daemon[48601]: [session uid=1002 pid=48601] AppArmor D-Bus mediation is enabled
+апр 29 13:59:41 zerglinux dbus-daemon[48601]: [session uid=1002 pid=48601] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.1' (uid=1002 pid=48580 comm="/usr/libexec/tracker-extract-3 " label="unconfined")
+апр 29 13:59:41 zerglinux systemd[48562]: Starting Virtual filesystem service...
+апр 29 13:59:41 zerglinux dbus-daemon[48601]: [session uid=1002 pid=48601] Successfully activated service 'org.gtk.vfs.Daemon'
+апр 29 13:59:41 zerglinux systemd[48562]: Started Virtual filesystem service.
+апр 29 13:59:41 zerglinux dbus-daemon[48601]: [session uid=1002 pid=48601] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.4' (uid=1002 pid=48579 comm="/usr/bin/snap run snapd-desktop-integration " label="unconfined")
+апр 29 13:59:41 zerglinux systemd[48562]: Starting flatpak document portal service...
+апр 29 13:59:41 zerglinux dbus-daemon[48601]: [session uid=1002 pid=48601] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.5' (uid=1002 pid=48652 comm="/usr/libexec/xdg-document-portal " label="unconfined")
+апр 29 13:59:41 zerglinux systemd[48562]: Starting sandboxed app permission store...
+апр 29 13:59:41 zerglinux dbus-daemon[48601]: [session uid=1002 pid=48601] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+апр 29 13:59:41 zerglinux systemd[48562]: Started sandboxed app permission store.
+апр 29 13:59:41 zerglinux dbus-daemon[48601]: [session uid=1002 pid=48601] Successfully activated service 'org.freedesktop.portal.Documents'
+апр 29 13:59:41 zerglinux systemd[48562]: Started flatpak document portal service.
+апр 29 13:59:41 zerglinux dbus-daemon[48601]: [session uid=1002 pid=48601] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Files' unit='tracker-miner-fs-3.service' requested by ':1.1' (uid=1002 pid=48580 comm="/usr/libexec/tracker-extract-3 " label="unconfined")
+апр 29 13:59:41 zerglinux systemd[48562]: Starting Tracker file system data miner...
+апр 29 13:59:41 zerglinux tracker-miner-f[48683]: Unable to get XDG user directory path for special directory &DOCUMENTS. Ignoring this location.
+апр 29 13:59:41 zerglinux tracker-miner-f[48683]: Unable to get XDG user directory path for special directory &MUSIC. Ignoring this location.
+апр 29 13:59:41 zerglinux tracker-miner-f[48683]: Unable to get XDG user directory path for special directory &PICTURES. Ignoring this location.
+апр 29 13:59:41 zerglinux tracker-miner-f[48683]: Unable to get XDG user directory path for special directory &VIDEOS. Ignoring this location.
+апр 29 13:59:41 zerglinux tracker-miner-f[48683]: Unable to get XDG user directory path for special directory &DOWNLOAD. Ignoring this location.
+апр 29 13:59:41 zerglinux tracker-miner-f[48683]: Unable to get XDG user directory path for special directory &DOCUMENTS. Ignoring this location.
+апр 29 13:59:41 zerglinux tracker-miner-f[48683]: Unable to get XDG user directory path for special directory &MUSIC. Ignoring this location.
+апр 29 13:59:41 zerglinux tracker-miner-f[48683]: Unable to get XDG user directory path for special directory &PICTURES. Ignoring this location.
+апр 29 13:59:41 zerglinux tracker-miner-f[48683]: Unable to get XDG user directory path for special directory &VIDEOS. Ignoring this location.
+апр 29 13:59:41 zerglinux dbus-daemon[48601]: [session uid=1002 pid=48601] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.7' (uid=1002 pid=48683 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+апр 29 13:59:41 zerglinux systemd[48562]: Starting Virtual filesystem service - disk device monitor...
+апр 29 13:59:42 zerglinux dbus-daemon[48601]: [session uid=1002 pid=48601] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+апр 29 13:59:42 zerglinux systemd[48562]: Started Virtual filesystem service - disk device monitor.
+апр 29 13:59:42 zerglinux dbus-daemon[48601]: [session uid=1002 pid=48601] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.7' (uid=1002 pid=48683 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+апр 29 13:59:42 zerglinux systemd[48562]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+апр 29 13:59:42 zerglinux snapd-desktop-i[48732]: Failed to do gtk init. Waiting for a new session with desktop capabilities.
+апр 29 13:59:42 zerglinux audit[48732]: SECCOMP auid=1002 uid=1002 gid=1002 ses=553 subj=snap.snapd-desktop-integration.snapd-desktop-integration pid=48732 comm="snapd-desktop-i" exe="/snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration" sig=0 arch=c000003e syscall=314 compat=0 ip=0x7f940a439a3d code=0x50000
+апр 29 13:59:42 zerglinux kernel: audit: type=1326 audit(1682765982.035:1310): auid=1002 uid=1002 gid=1002 ses=553 subj=snap.snapd-desktop-integration.snapd-desktop-integration pid=48732 comm="snapd-desktop-i" exe="/snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration" sig=0 arch=c000003e syscall=314 compat=0 ip=0x7f940a439a3d code=0x50000
+апр 29 13:59:42 zerglinux dbus-daemon[48601]: [session uid=1002 pid=48601] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+апр 29 13:59:42 zerglinux systemd[48562]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+апр 29 13:59:42 zerglinux dbus-daemon[48601]: [session uid=1002 pid=48601] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.7' (uid=1002 pid=48683 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+апр 29 13:59:42 zerglinux systemd[48562]: Starting Virtual filesystem service - Apple File Conduit monitor...
+апр 29 13:59:42 zerglinux snapd-desktop-i[48732]: Checking session /org/freedesktop/login1/session/_32...
+апр 29 13:59:42 zerglinux snapd-desktop-i[48732]: Checking session /org/freedesktop/login1/session/_3552...
+апр 29 13:59:42 zerglinux dbus-daemon[48601]: [session uid=1002 pid=48601] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+апр 29 13:59:42 zerglinux systemd[48562]: Started Virtual filesystem service - Apple File Conduit monitor.
+апр 29 13:59:42 zerglinux dbus-daemon[48601]: [session uid=1002 pid=48601] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.7' (uid=1002 pid=48683 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+апр 29 13:59:42 zerglinux systemd[48562]: Starting Virtual filesystem service - digital camera monitor...
+апр 29 13:59:42 zerglinux pipewire[48576]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+апр 29 13:59:42 zerglinux pipewire[48576]: mod.rt: could not set nice-level to -11: Отказано в доступе
+апр 29 13:59:42 zerglinux rtkit-daemon[1767]: Supervising 8 threads of 4 processes of 2 users.
+апр 29 13:59:42 zerglinux rtkit-daemon[1767]: Supervising 8 threads of 4 processes of 2 users.
+апр 29 13:59:42 zerglinux rtkit-daemon[1767]: Supervising 8 threads of 4 processes of 2 users.
+апр 29 13:59:42 zerglinux dbus-daemon[48601]: [session uid=1002 pid=48601] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+апр 29 13:59:42 zerglinux systemd[48562]: Started Virtual filesystem service - digital camera monitor.
+апр 29 13:59:42 zerglinux dbus-daemon[48601]: [session uid=1002 pid=48601] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.7' (uid=1002 pid=48683 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+апр 29 13:59:42 zerglinux pipewire-media-session[48577]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+апр 29 13:59:42 zerglinux pipewire-media-session[48577]: mod.rt: could not make thread 48745 realtime using RTKit: Отказано в доступе
+апр 29 13:59:42 zerglinux systemd[48562]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+апр 29 13:59:42 zerglinux rtkit-daemon[1767]: Supervising 8 threads of 4 processes of 2 users.
+апр 29 13:59:42 zerglinux dbus-daemon[48601]: [session uid=1002 pid=48601] Activating service name='org.gnome.OnlineAccounts' requested by ':1.14' (uid=1002 pid=48750 comm="/usr/libexec/gvfs-goa-volume-monitor " label="unconfined")
+апр 29 13:59:42 zerglinux pipewire[48576]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+апр 29 13:59:42 zerglinux pipewire[48576]: mod.rt: could not make thread 48749 realtime using RTKit: Отказано в доступе
+апр 29 13:59:42 zerglinux sshd[48558]: pam_unix(sshd:session): session closed for user user2
+апр 29 13:59:42 zerglinux systemd[1]: session-552.scope: Deactivated successfully.
+апр 29 13:59:42 zerglinux systemd-logind[1135]: Session 552 logged out. Waiting for processes to exit.
+апр 29 13:59:42 zerglinux systemd-logind[1135]: Removed session 552.
+апр 29 13:59:42 zerglinux audit[1105]: USER_AVC pid=1105 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionRemoved" name=":1.19" mask="receive" pid=3822 label="snap.firefox.firefox" peer_pid=1135 peer_label="unconfined"
+                                           exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+апр 29 13:59:42 zerglinux kernel: audit: type=1107 audit(1682765982.115:1311): pid=1105 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionRemoved" name=":1.19" mask="receive" pid=3822 label="snap.firefox.firefox" peer_pid=1135 peer_label="unconfined"
+                                      exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+апр 29 13:59:42 zerglinux goa-daemon[48754]: goa-daemon version 3.44.0 starting
+апр 29 13:59:42 zerglinux dbus-daemon[48601]: [session uid=1002 pid=48601] Activating service name='org.gnome.Identity' requested by ':1.15' (uid=1002 pid=48754 comm="/usr/libexec/goa-daemon " label="unconfined")
+апр 29 13:59:42 zerglinux dbus-daemon[48601]: [session uid=1002 pid=48601] Successfully activated service 'org.gnome.OnlineAccounts'
+апр 29 13:59:42 zerglinux dbus-daemon[48601]: [session uid=1002 pid=48601] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+апр 29 13:59:42 zerglinux systemd[48562]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+апр 29 13:59:42 zerglinux dbus-daemon[48601]: [session uid=1002 pid=48601] Successfully activated service 'org.gnome.Identity'
+апр 29 13:59:42 zerglinux sshd[48724]: Accepted password for user2 from 127.0.0.1 port 53130 ssh2
+апр 29 13:59:42 zerglinux sshd[48724]: pam_unix(sshd:session): session opened for user user2(uid=1002) by (uid=0)
+апр 29 13:59:42 zerglinux systemd-logind[1135]: New session 554 of user user2.
+апр 29 13:59:42 zerglinux audit[1105]: USER_AVC pid=1105 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionNew" name=":1.19" mask="receive" pid=3822 label="snap.firefox.firefox" peer_pid=1135 peer_label="unconfined"
+                                           exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+апр 29 13:59:42 zerglinux systemd[1]: Started Session 554 of User user2.
+апр 29 13:59:42 zerglinux snapd-desktop-i[48732]: Detected new session 554 at /org/freedesktop/login1/session/_3554
+апр 29 13:59:42 zerglinux kernel: audit: type=1107 audit(1682765982.179:1312): pid=1105 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionNew" name=":1.19" mask="receive" pid=3822 label="snap.firefox.firefox" peer_pid=1135 peer_label="unconfined"
+                                      exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+апр 29 13:59:42 zerglinux sudo[48819]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+апр 29 13:59:42 zerglinux sudo[48819]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1002)
+апр 29 13:59:42 zerglinux dbus-daemon[48601]: [session uid=1002 pid=48601] Successfully activated service 'org.freedesktop.Tracker3.Miner.Files'
+апр 29 13:59:42 zerglinux systemd[48562]: Started Tracker file system data miner.
+апр 29 13:59:42 zerglinux systemd[48562]: Started Tracker metadata extractor.
+апр 29 13:59:42 zerglinux rtkit-daemon[1767]: Supervising 8 threads of 4 processes of 2 users.
+апр 29 13:59:42 zerglinux rtkit-daemon[1767]: Supervising 8 threads of 4 processes of 2 users.
+апр 29 13:59:42 zerglinux rtkit-daemon[1767]: Supervising 8 threads of 4 processes of 2 users.
+апр 29 13:59:42 zerglinux rtkit-daemon[1767]: Supervising 8 threads of 4 processes of 2 users.
+апр 29 13:59:42 zerglinux rtkit-daemon[1767]: Supervising 8 threads of 4 processes of 2 users.
+апр 29 13:59:42 zerglinux systemd[48562]: Started Sound Service.
+апр 29 13:59:42 zerglinux systemd[48562]: Reached target Main User Target.
+апр 29 13:59:42 zerglinux systemd[48562]: Startup finished in 909ms.
+апр 29 13:59:42 zerglinux pulseaudio[48578]: Could not find org.bluez.BatteryProviderManager1.RegisterBatteryProvider(), is bluetoothd started with experimental features enabled (-E flag)?
+апр 29 13:59:42 zerglinux bluetoothd[1101]: src/profile.c:register_profile() :1.1656 tried to register 00001108-0000-1000-8000-00805f9b34fb which is already registered
+апр 29 13:59:42 zerglinux bluetoothd[1101]: src/profile.c:register_profile() :1.1656 tried to register 0000111f-0000-1000-8000-00805f9b34fb which is already registered
+апр 29 13:59:42 zerglinux pulseaudio[48578]: org.bluez.ProfileManager1.RegisterProfile() failed: org.bluez.Error.NotPermitted: UUID already registered
+апр 29 13:59:42 zerglinux pulseaudio[48578]: org.bluez.ProfileManager1.RegisterProfile() failed: org.bluez.Error.NotPermitted: UUID already registered
+апр 29 13:59:42 zerglinux bluetoothd[1101]: Endpoint registered: sender=:1.1656 path=/MediaEndpoint/A2DPSink/sbc
+апр 29 13:59:42 zerglinux bluetoothd[1101]: Endpoint registered: sender=:1.1656 path=/MediaEndpoint/A2DPSource/sbc
+апр 29 13:59:42 zerglinux bluetoothd[1101]: Endpoint registered: sender=:1.1656 path=/MediaEndpoint/A2DPSink/sbc_xq_453
+апр 29 13:59:42 zerglinux bluetoothd[1101]: Endpoint registered: sender=:1.1656 path=/MediaEndpoint/A2DPSource/sbc_xq_453
+апр 29 13:59:42 zerglinux bluetoothd[1101]: Endpoint registered: sender=:1.1656 path=/MediaEndpoint/A2DPSink/sbc_xq_512
+апр 29 13:59:42 zerglinux bluetoothd[1101]: Endpoint registered: sender=:1.1656 path=/MediaEndpoint/A2DPSource/sbc_xq_512
+апр 29 13:59:42 zerglinux bluetoothd[1101]: Endpoint registered: sender=:1.1656 path=/MediaEndpoint/A2DPSink/sbc_xq_552
+апр 29 13:59:42 zerglinux bluetoothd[1101]: Endpoint registered: sender=:1.1656 path=/MediaEndpoint/A2DPSource/sbc_xq_552
+апр 29 13:59:42 zerglinux sudo[48819]: pam_unix(sudo:session): session closed for user root
+апр 29 13:59:42 zerglinux sshd[48724]: pam_unix(sshd:session): session closed for user user2
+апр 29 13:59:42 zerglinux systemd[1]: session-554.scope: Deactivated successfully.
+апр 29 13:59:42 zerglinux systemd-logind[1135]: Session 554 logged out. Waiting for processes to exit.
+апр 29 13:59:42 zerglinux systemd-logind[1135]: Removed session 554.
+апр 29 13:59:42 zerglinux audit[1105]: USER_AVC pid=1105 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionRemoved" name=":1.19" mask="receive" pid=3822 label="snap.firefox.firefox" peer_pid=1135 peer_label="unconfined"
+                                           exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+апр 29 13:59:42 zerglinux kernel: audit: type=1107 audit(1682765982.847:1313): pid=1105 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionRemoved" name=":1.19" mask="receive" pid=3822 label="snap.firefox.firefox" peer_pid=1135 peer_label="unconfined"
+                                      exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+апр 29 13:59:42 zerglinux bluetoothd[1101]: Endpoint unregistered: sender=:1.1656 path=/MediaEndpoint/A2DPSink/sbc
+апр 29 13:59:42 zerglinux bluetoothd[1101]: Endpoint unregistered: sender=:1.1656 path=/MediaEndpoint/A2DPSource/sbc
+апр 29 13:59:42 zerglinux bluetoothd[1101]: Endpoint unregistered: sender=:1.1656 path=/MediaEndpoint/A2DPSink/sbc_xq_453
+апр 29 13:59:42 zerglinux bluetoothd[1101]: Endpoint unregistered: sender=:1.1656 path=/MediaEndpoint/A2DPSource/sbc_xq_453
+апр 29 13:59:42 zerglinux bluetoothd[1101]: Endpoint unregistered: sender=:1.1656 path=/MediaEndpoint/A2DPSink/sbc_xq_512
+апр 29 13:59:42 zerglinux bluetoothd[1101]: Endpoint unregistered: sender=:1.1656 path=/MediaEndpoint/A2DPSource/sbc_xq_512
+апр 29 13:59:42 zerglinux bluetoothd[1101]: Endpoint unregistered: sender=:1.1656 path=/MediaEndpoint/A2DPSink/sbc_xq_552
+апр 29 13:59:42 zerglinux bluetoothd[1101]: Endpoint unregistered: sender=:1.1656 path=/MediaEndpoint/A2DPSource/sbc_xq_552
+апр 29 13:59:43 zerglinux sshd[48845]: Accepted password for user2 from 127.0.0.1 port 53134 ssh2
+апр 29 13:59:43 zerglinux sshd[48845]: pam_unix(sshd:session): session opened for user user2(uid=1002) by (uid=0)
+апр 29 13:59:43 zerglinux systemd-logind[1135]: New session 555 of user user2.
+апр 29 13:59:43 zerglinux audit[1105]: USER_AVC pid=1105 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionNew" name=":1.19" mask="receive" pid=3822 label="snap.firefox.firefox" peer_pid=1135 peer_label="unconfined"
+                                           exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+апр 29 13:59:43 zerglinux systemd[1]: Started Session 555 of User user2.
+апр 29 13:59:43 zerglinux snapd-desktop-i[48732]: Detected new session 555 at /org/freedesktop/login1/session/_3555
+апр 29 13:59:43 zerglinux kernel: audit: type=1107 audit(1682765983.023:1314): pid=1105 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionNew" name=":1.19" mask="receive" pid=3822 label="snap.firefox.firefox" peer_pid=1135 peer_label="unconfined"
+                                      exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+апр 29 13:59:43 zerglinux sudo[48899]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+апр 29 13:59:43 zerglinux sudo[48899]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1002)
+апр 29 13:59:43 zerglinux sudo[48899]: pam_unix(sudo:session): session closed for user root
+апр 29 13:59:43 zerglinux sshd[48845]: pam_unix(sshd:session): session closed for user user2
+апр 29 13:59:43 zerglinux systemd[1]: session-555.scope: Deactivated successfully.
+апр 29 13:59:43 zerglinux systemd-logind[1135]: Session 555 logged out. Waiting for processes to exit.
+апр 29 13:59:43 zerglinux systemd-logind[1135]: Removed session 555.
+апр 29 13:59:43 zerglinux audit[1105]: USER_AVC pid=1105 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionRemoved" name=":1.19" mask="receive" pid=3822 label="snap.firefox.firefox" peer_pid=1135 peer_label="unconfined"
+                                           exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+апр 29 13:59:43 zerglinux kernel: audit: type=1107 audit(1682765983.187:1315): pid=1105 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="SessionRemoved" name=":1.19" mask="receive" pid=3822 label="snap.firefox.firefox" peer_pid=1135 peer_label="unconfined"
+                                      exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
